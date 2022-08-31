@@ -1,7 +1,6 @@
 <?php include 'inc/header.php'; ?>
 <img src="/feedback/img/feedback.png" class="w-15 mb-3" alt="">
-<h2>Feedback</h2>
-<p class="lead text-center">Leave feedback for Edge Media</p>
+<p class="lead text-center">Please leave your honest feedback about Edge Media</p>
 <form action="" class="mt-4 w-75">
     <div class="mb-3">
         <label for="name" class="form-label">Name</label>
