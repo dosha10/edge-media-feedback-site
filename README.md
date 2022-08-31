@@ -7,4 +7,4 @@ A fullstack site for posting feedback.
 PHP.\
 SQL.\
 HTML.\
-Bootstrap 5.\
+Bootstrap 5
