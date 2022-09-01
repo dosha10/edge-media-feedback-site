@@ -47,21 +47,24 @@
 <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']);?>" method="POST" class="mt-4 w-75">
     <div class="mb-3">
         <label for="name" class="form-label">Name</label>
-        <input type="text" class="form-control <?php echo $nameErr ? 'is-invalid' : null; ?>" id="name" name="name" placeholder="Enter your name">
+        <input type="text" class="form-control <?php echo $nameErr ? 'is-invalid' : null; ?>" id="name" name="name"
+            placeholder="Enter your name">
         <div class="invalid-feedback">
             <?php echo $nameErr; ?>
         </div>
     </div>
     <div class="mb-3">
         <label for="email" class="form-label">Email</label>
-        <input type="email" class="form-control <?php echo $emailErr ? 'is-invalid' : null; ?>" id="email" name="email" placeholder="Enter your email">
+        <input type="email" class="form-control <?php echo $emailErr ? 'is-invalid' : null; ?>" id="email" name="email"
+            placeholder="Enter your email">
         <div class="invalid-feedback">
             <?php echo $emailErr; ?>
         </div>
     </div>
     <div class="mb-3">
         <label for="body" class="form-label">Feedback</label>
-        <textarea class="form-control <?php echo $bodyErr ? 'is-invalid' : null; ?>" id="body" name="body" placeholder="Enter your feedback"></textarea>
+        <textarea class="form-control <?php echo $bodyErr ? 'is-invalid' : null; ?>" id="body" name="body"
+            placeholder="Enter your feedback"></textarea>
         <div class="invalid-feedback">
             <?php echo $bodyErr; ?>
         </div>
